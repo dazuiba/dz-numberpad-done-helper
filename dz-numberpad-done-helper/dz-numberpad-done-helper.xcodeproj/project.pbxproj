@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		227F61E71533DD79006FDF50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227F61E61533DD79006FDF50 /* UIKit.framework */; };
+		227F61E91533DD79006FDF50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227F61E81533DD79006FDF50 /* Foundation.framework */; };
+		227F61EB1533DD79006FDF50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227F61EA1533DD79006FDF50 /* CoreGraphics.framework */; };
+		227F61F11533DD79006FDF50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 227F61EF1533DD79006FDF50 /* InfoPlist.strings */; };
+		227F61F31533DD79006FDF50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 227F61F21533DD79006FDF50 /* main.m */; };
+		227F61F71533DD79006FDF50 /* DZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 227F61F61533DD79006FDF50 /* DZAppDelegate.m */; };
+		227F61FA1533DD79006FDF50 /* DZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 227F61F91533DD79006FDF50 /* DZViewController.m */; };
+		227F61FD1533DD79006FDF50 /* DZViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227F61FB1533DD79006FDF50 /* DZViewController.xib */; };
+		227F62071533DDCD006FDF50 /* doneButtonHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 227F62051533DDCD006FDF50 /* doneButtonHighlighted.png */; };
+		227F62081533DDCD006FDF50 /* doneButtonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 227F62061533DDCD006FDF50 /* doneButtonNormal.png */; };
+		227F620F1533DE68006FDF50 /* DZNumberpadDoneHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 227F620E1533DE68006FDF50 /* DZNumberpadDoneHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		227F61E21533DD79006FDF50 /* dz-numberpad-done-helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dz-numberpad-done-helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		227F61E61533DD79006FDF50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		227F61E81533DD79006FDF50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		227F61EA1533DD79006FDF50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		227F61EE1533DD79006FDF50 /* dz-numberpad-done-helper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dz-numberpad-done-helper-Info.plist"; sourceTree = "<group>"; };
+		227F61F01533DD79006FDF50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		227F61F21533DD79006FDF50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		227F61F41533DD79006FDF50 /* dz-numberpad-done-helper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dz-numberpad-done-helper-Prefix.pch"; sourceTree = "<group>"; };
+		227F61F51533DD79006FDF50 /* DZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZAppDelegate.h; sourceTree = "<group>"; };
+		227F61F61533DD79006FDF50 /* DZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZAppDelegate.m; sourceTree = "<group>"; };
+		227F61F81533DD79006FDF50 /* DZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZViewController.h; sourceTree = "<group>"; };
+		227F61F91533DD79006FDF50 /* DZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZViewController.m; sourceTree = "<group>"; };
+		227F61FC1533DD79006FDF50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DZViewController.xib; sourceTree = "<group>"; };
+		227F62051533DDCD006FDF50 /* doneButtonHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doneButtonHighlighted.png; sourceTree = "<group>"; };
+		227F62061533DDCD006FDF50 /* doneButtonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doneButtonNormal.png; sourceTree = "<group>"; };
+		227F620D1533DE68006FDF50 /* DZNumberpadDoneHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNumberpadDoneHelper.h; sourceTree = "<group>"; };
+		227F620E1533DE68006FDF50 /* DZNumberpadDoneHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNumberpadDoneHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		227F61DF1533DD79006FDF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227F61E71533DD79006FDF50 /* UIKit.framework in Frameworks */,
+				227F61E91533DD79006FDF50 /* Foundation.framework in Frameworks */,
+				227F61EB1533DD79006FDF50 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		227F61D71533DD79006FDF50 = {
+			isa = PBXGroup;
+			children = (
+				227F62031533DD90006FDF50 /* Library */,
+				227F61EC1533DD79006FDF50 /* Demo */,
+				227F61E51533DD79006FDF50 /* Frameworks */,
+				227F61E31533DD79006FDF50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		227F61E31533DD79006FDF50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				227F61E21533DD79006FDF50 /* dz-numberpad-done-helper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227F61E51533DD79006FDF50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				227F61E61533DD79006FDF50 /* UIKit.framework */,
+				227F61E81533DD79006FDF50 /* Foundation.framework */,
+				227F61EA1533DD79006FDF50 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		227F61EC1533DD79006FDF50 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				227F61F51533DD79006FDF50 /* DZAppDelegate.h */,
+				227F61F61533DD79006FDF50 /* DZAppDelegate.m */,
+				227F61F81533DD79006FDF50 /* DZViewController.h */,
+				227F61F91533DD79006FDF50 /* DZViewController.m */,
+				227F61FB1533DD79006FDF50 /* DZViewController.xib */,
+				227F61ED1533DD79006FDF50 /* Supporting Files */,
+			);
+			name = Demo;
+			path = "dz-numberpad-done-helper";
+			sourceTree = "<group>";
+		};
+		227F61ED1533DD79006FDF50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				227F61EE1533DD79006FDF50 /* dz-numberpad-done-helper-Info.plist */,
+				227F61EF1533DD79006FDF50 /* InfoPlist.strings */,
+				227F61F21533DD79006FDF50 /* main.m */,
+				227F61F41533DD79006FDF50 /* dz-numberpad-done-helper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		227F62031533DD90006FDF50 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				227F62041533DDB0006FDF50 /* Resources */,
+				227F620D1533DE68006FDF50 /* DZNumberpadDoneHelper.h */,
+				227F620E1533DE68006FDF50 /* DZNumberpadDoneHelper.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		227F62041533DDB0006FDF50 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				227F62051533DDCD006FDF50 /* doneButtonHighlighted.png */,
+				227F62061533DDCD006FDF50 /* doneButtonNormal.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		227F61E11533DD79006FDF50 /* dz-numberpad-done-helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227F62001533DD79006FDF50 /* Build configuration list for PBXNativeTarget "dz-numberpad-done-helper" */;
+			buildPhases = (
+				227F61DE1533DD79006FDF50 /* Sources */,
+				227F61DF1533DD79006FDF50 /* Frameworks */,
+				227F61E01533DD79006FDF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dz-numberpad-done-helper";
+			productName = "dz-numberpad-done-helper";
+			productReference = 227F61E21533DD79006FDF50 /* dz-numberpad-done-helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		227F61D91533DD79006FDF50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DZ;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 227F61DC1533DD79006FDF50 /* Build configuration list for PBXProject "dz-numberpad-done-helper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 227F61D71533DD79006FDF50;
+			productRefGroup = 227F61E31533DD79006FDF50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				227F61E11533DD79006FDF50 /* dz-numberpad-done-helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		227F61E01533DD79006FDF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227F61F11533DD79006FDF50 /* InfoPlist.strings in Resources */,
+				227F61FD1533DD79006FDF50 /* DZViewController.xib in Resources */,
+				227F62071533DDCD006FDF50 /* doneButtonHighlighted.png in Resources */,
+				227F62081533DDCD006FDF50 /* doneButtonNormal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		227F61DE1533DD79006FDF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227F61F31533DD79006FDF50 /* main.m in Sources */,
+				227F61F71533DD79006FDF50 /* DZAppDelegate.m in Sources */,
+				227F61FA1533DD79006FDF50 /* DZViewController.m in Sources */,
+				227F620F1533DE68006FDF50 /* DZNumberpadDoneHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		227F61EF1533DD79006FDF50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227F61F01533DD79006FDF50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		227F61FB1533DD79006FDF50 /* DZViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227F61FC1533DD79006FDF50 /* en */,
+			);
+			name = DZViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		227F61FE1533DD79006FDF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		227F61FF1533DD79006FDF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		227F62011533DD79006FDF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dz-numberpad-done-helper/dz-numberpad-done-helper-Prefix.pch";
+				INFOPLIST_FILE = "dz-numberpad-done-helper/dz-numberpad-done-helper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		227F62021533DD79006FDF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dz-numberpad-done-helper/dz-numberpad-done-helper-Prefix.pch";
+				INFOPLIST_FILE = "dz-numberpad-done-helper/dz-numberpad-done-helper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		227F61DC1533DD79006FDF50 /* Build configuration list for PBXProject "dz-numberpad-done-helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227F61FE1533DD79006FDF50 /* Debug */,
+				227F61FF1533DD79006FDF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227F62001533DD79006FDF50 /* Build configuration list for PBXNativeTarget "dz-numberpad-done-helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227F62011533DD79006FDF50 /* Debug */,
+				227F62021533DD79006FDF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 227F61D91533DD79006FDF50 /* Project object */;
+}
