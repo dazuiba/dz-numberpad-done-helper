@@ -9,9 +9,9 @@ Add done button to iOS number pad
 Demo code
 ----------
 
-Simply use the `Resque.redis.namespace` accessor:
+In your view controller
 
-``` in your view controller
+``` objective-c
 - (void)viewDidLoad{
     self.numberpadDonehelper = [[[DZNumberpadDoneHelper alloc] initWithTarget:self doneAction:@selector(doneAction:)] autorelease]; 
 }
